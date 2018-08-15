@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		295F7A382124563200A13679 /* BelkaSiriShortcutsANE_LIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 295F7A372124563200A13679 /* BelkaSiriShortcutsANE_LIB.m */; };
+		295F7A46212456C500A13679 /* BelkaSiriShortcutsANE_FW.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F7A44212456C500A13679 /* BelkaSiriShortcutsANE_FW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		295F7A4C21245AE800A13679 /* FreSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F7A4B21245AE800A13679 /* FreSwift.framework */; };
+		295F7A4D21245AE800A13679 /* FreSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F7A4B21245AE800A13679 /* FreSwift.framework */; };
+		295F7A4F21245B3300A13679 /* FreMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F7A4E21245B3300A13679 /* FreMacros.h */; };
+		295F7A5121245B6300A13679 /* FreMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F7A4E21245B3300A13679 /* FreMacros.h */; };
+		295F7A5221245B8900A13679 /* BelkaSiriShortcutsANE_FW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F7A42212456C500A13679 /* BelkaSiriShortcutsANE_FW.framework */; };
+		295F7A5621245BC500A13679 /* SwiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F7A5521245BC500A13679 /* SwiftController.swift */; };
+		295F7A5821245D1300A13679 /* BelkaSiriShortcutsANE_FW-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F7A5721245D1300A13679 /* BelkaSiriShortcutsANE_FW-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		295F7A59212465CF00A13679 /* BelkaSiriShortcutsANE_LIB.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F7A362124563200A13679 /* BelkaSiriShortcutsANE_LIB.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		295F7A5321245B9A00A13679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 295F7A1C2124558100A13679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 295F7A41212456C500A13679;
+			remoteInfo = BelkaSiriShortcutsANE_FW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		295F7A342124563200A13679 /* libBelkaSiriShortcutsANE_LIB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBelkaSiriShortcutsANE_LIB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		295F7A362124563200A13679 /* BelkaSiriShortcutsANE_LIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BelkaSiriShortcutsANE_LIB.h; sourceTree = "<group>"; };
+		295F7A372124563200A13679 /* BelkaSiriShortcutsANE_LIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BelkaSiriShortcutsANE_LIB.m; sourceTree = "<group>"; };
+		295F7A42212456C500A13679 /* BelkaSiriShortcutsANE_FW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BelkaSiriShortcutsANE_FW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295F7A44212456C500A13679 /* BelkaSiriShortcutsANE_FW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BelkaSiriShortcutsANE_FW.h; sourceTree = "<group>"; };
+		295F7A45212456C500A13679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295F7A4B21245AE800A13679 /* FreSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FreSwift.framework; path = Carthage/Build/iOS/FreSwift.framework; sourceTree = SOURCE_ROOT; };
+		295F7A4E21245B3300A13679 /* FreMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreMacros.h; sourceTree = "<group>"; };
+		295F7A5521245BC500A13679 /* SwiftController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftController.swift; sourceTree = "<group>"; };
+		295F7A5721245D1300A13679 /* BelkaSiriShortcutsANE_FW-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BelkaSiriShortcutsANE_FW-Swift.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		295F7A312124563200A13679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295F7A5221245B8900A13679 /* BelkaSiriShortcutsANE_FW.framework in Frameworks */,
+				295F7A4C21245AE800A13679 /* FreSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295F7A3E212456C500A13679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295F7A4D21245AE800A13679 /* FreSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		295F7A1B2124558100A13679 = {
+			isa = PBXGroup;
+			children = (
+				295F7A4A21245AB400A13679 /* Frameworks */,
+				295F7A352124563200A13679 /* BelkaSiriShortcutsANE_LIB */,
+				295F7A43212456C500A13679 /* BelkaSiriShortcutsANE_FW */,
+				295F7A252124558100A13679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		295F7A252124558100A13679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				295F7A342124563200A13679 /* libBelkaSiriShortcutsANE_LIB.a */,
+				295F7A42212456C500A13679 /* BelkaSiriShortcutsANE_FW.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		295F7A352124563200A13679 /* BelkaSiriShortcutsANE_LIB */ = {
+			isa = PBXGroup;
+			children = (
+				295F7A4E21245B3300A13679 /* FreMacros.h */,
+				295F7A362124563200A13679 /* BelkaSiriShortcutsANE_LIB.h */,
+				295F7A372124563200A13679 /* BelkaSiriShortcutsANE_LIB.m */,
+			);
+			path = BelkaSiriShortcutsANE_LIB;
+			sourceTree = "<group>";
+		};
+		295F7A43212456C500A13679 /* BelkaSiriShortcutsANE_FW */ = {
+			isa = PBXGroup;
+			children = (
+				295F7A5721245D1300A13679 /* BelkaSiriShortcutsANE_FW-Swift.h */,
+				295F7A5521245BC500A13679 /* SwiftController.swift */,
+				295F7A44212456C500A13679 /* BelkaSiriShortcutsANE_FW.h */,
+				295F7A45212456C500A13679 /* Info.plist */,
+			);
+			path = BelkaSiriShortcutsANE_FW;
+			sourceTree = "<group>";
+		};
+		295F7A4A21245AB400A13679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				295F7A4B21245AE800A13679 /* FreSwift.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		295F7A3F212456C500A13679 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295F7A46212456C500A13679 /* BelkaSiriShortcutsANE_FW.h in Headers */,
+				295F7A5821245D1300A13679 /* BelkaSiriShortcutsANE_FW-Swift.h in Headers */,
+				295F7A4F21245B3300A13679 /* FreMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295F7A5021245B5500A13679 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295F7A5121245B6300A13679 /* FreMacros.h in Headers */,
+				295F7A59212465CF00A13679 /* BelkaSiriShortcutsANE_LIB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		295F7A332124563200A13679 /* BelkaSiriShortcutsANE_LIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 295F7A3A2124563200A13679 /* Build configuration list for PBXNativeTarget "BelkaSiriShortcutsANE_LIB" */;
+			buildPhases = (
+				295F7A302124563200A13679 /* Sources */,
+				295F7A312124563200A13679 /* Frameworks */,
+				295F7A5021245B5500A13679 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				295F7A5421245B9A00A13679 /* PBXTargetDependency */,
+			);
+			name = BelkaSiriShortcutsANE_LIB;
+			productName = BelkaSiriShortcutsANE_LIB;
+			productReference = 295F7A342124563200A13679 /* libBelkaSiriShortcutsANE_LIB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		295F7A41212456C500A13679 /* BelkaSiriShortcutsANE_FW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 295F7A47212456C500A13679 /* Build configuration list for PBXNativeTarget "BelkaSiriShortcutsANE_FW" */;
+			buildPhases = (
+				295F7A3D212456C500A13679 /* Sources */,
+				295F7A3E212456C500A13679 /* Frameworks */,
+				295F7A3F212456C500A13679 /* Headers */,
+				295F7A40212456C500A13679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BelkaSiriShortcutsANE_FW;
+			productName = BelkaSiriShortcutsANE_FW;
+			productReference = 295F7A42212456C500A13679 /* BelkaSiriShortcutsANE_FW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		295F7A1C2124558100A13679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Dzmitry Anushkevich";
+				TargetAttributes = {
+					295F7A332124563200A13679 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					295F7A41212456C500A13679 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 295F7A1F2124558100A13679 /* Build configuration list for PBXProject "BelkaSiriShortcutsANE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 295F7A1B2124558100A13679;
+			productRefGroup = 295F7A252124558100A13679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				295F7A332124563200A13679 /* BelkaSiriShortcutsANE_LIB */,
+				295F7A41212456C500A13679 /* BelkaSiriShortcutsANE_FW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		295F7A40212456C500A13679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		295F7A302124563200A13679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295F7A382124563200A13679 /* BelkaSiriShortcutsANE_LIB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		295F7A3D212456C500A13679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295F7A5621245BC500A13679 /* SwiftController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		295F7A5421245B9A00A13679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 295F7A41212456C500A13679 /* BelkaSiriShortcutsANE_FW */;
+			targetProxy = 295F7A5321245B9A00A13679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		295F7A2B2124558100A13679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		295F7A2C2124558100A13679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		295F7A3B2124563200A13679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		295F7A3C2124563200A13679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		295F7A48212456C500A13679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BelkaSiriShortcutsANE_FW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.belkatechnologies.BelkaSiriShortcutsANE;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		295F7A49212456C500A13679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BelkaSiriShortcutsANE_FW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.belkatechnologies.BelkaSiriShortcutsANE;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		295F7A1F2124558100A13679 /* Build configuration list for PBXProject "BelkaSiriShortcutsANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295F7A2B2124558100A13679 /* Debug */,
+				295F7A2C2124558100A13679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		295F7A3A2124563200A13679 /* Build configuration list for PBXNativeTarget "BelkaSiriShortcutsANE_LIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295F7A3B2124563200A13679 /* Debug */,
+				295F7A3C2124563200A13679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		295F7A47212456C500A13679 /* Build configuration list for PBXNativeTarget "BelkaSiriShortcutsANE_FW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295F7A48212456C500A13679 /* Debug */,
+				295F7A49212456C500A13679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 295F7A1C2124558100A13679 /* Project object */;
+}

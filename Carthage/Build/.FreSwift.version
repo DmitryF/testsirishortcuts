@@ -1,0 +1,24 @@
+{
+  "Mac" : [
+    {
+      "name" : "FreSwift",
+      "hash" : "8b2613029310fd0d8e3abf782d8922c0e1df317f992c2cd1a28a75201ed02908"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "FreSwift",
+      "hash" : "e46944c8c075a29d3535e8ad08c47f8964c8a03e9be46a54b0bc62992d72c9e5"
+    }
+  ],
+  "commitish" : "2.5.0",
+  "iOS" : [
+    {
+      "name" : "FreSwift",
+      "hash" : "1eb6ae1623c539005d2347c6b983c2bc01382fa8ecebb31139ac7e7fe4f0e54d"
+    }
+  ]
+}
