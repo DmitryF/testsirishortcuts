@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/19.0">
+    <id>com.xxx.XXX</id>
+	<name>XXX</name>
+	<copyright>This work is licensed under Apache License, Copyright (c) 2017 .</copyright>
+	<versionNumber>0.0.1</versionNumber>
+    <platforms>
+     <platform name="iPhone-ARM">
+        <applicationDeployment>
+            <nativeLibrary>libXxxXxx.a</nativeLibrary>
+            <initializer>XXXExtInizer</initializer>
+            <finalizer>XXXExtFinizer</finalizer>
+        </applicationDeployment>
+    </platform>
+     <platform name="iPhone-x86">
+         <applicationDeployment>
+             <nativeLibrary>libXxxXxx.a</nativeLibrary>
+             <initializer>XXXExtInizer</initializer>
+             <finalizer>XXXExtFinizer</finalizer>
+         </applicationDeployment>
+     </platform>
+    </platforms>
+</extension>
